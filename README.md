@@ -53,7 +53,10 @@
 | ★ | `ex_write.c` | 演習：`/* TODO */` を埋めて書き込み関数を完成させる |
 | ★ | `ex_read.c` | 演習：`/* TODO */` を埋めて読み込み関数を完成させる |
 | ★★ | `task_max.c` | 発展：最高気温の場所を探す |
-| ★★★ | `bonus_search.c` | ボーナス：1000個の中から最速で数を当てるには？（二分探索） |
+| ★★★ | `bonus_search.c` | ボーナス①：二分探索 — 1000個から最速で数を当てるには？ |
+| ★★★ | `bonus_sort.c` | ボーナス②：選択ソート / バブルソート — 10個の数を並べ替える |
+| ★★★ | `bonus_sieve.c` | ボーナス③：エラトステネスの篩 — 1000以下の素数を全て求める |
+| ★★★ | `bonus_euclid.c` | ボーナス④：ユークリッドの互除法 — 最大公約数を高速に求める |
 
 **デモ用データ**
 
@@ -89,7 +92,10 @@ gcc ex_read.c  -o ex_read  && ./ex_read
 
 gcc task_max.c -o task_max && ./task_max
 
-gcc bonus_search.c -o bonus && ./bonus
+gcc bonus_search.c -o bonus_search && ./bonus_search
+gcc bonus_sort.c   -o bonus_sort   && ./bonus_sort
+gcc bonus_sieve.c  -o bonus_sieve  && ./bonus_sieve
+gcc bonus_euclid.c -o bonus_euclid && ./bonus_euclid
 ```
 
 ### ファイルの中身を確認する
